@@ -3,12 +3,14 @@ body {
 }
 
 h1{
+
 	color: #333025;
     text-align: center;
 }
 
 h2{
 	color: #333025;
+	text-align: center;
 }
 
 h3{
@@ -27,11 +29,12 @@ h3{
 	text-align: left;
 	grid-column: 1;
 	grid-row: 1;
+	place-self: center;
 }
 
 .grid2-portrait{
 	grid-column: span 2;
-	grid-row: 1 / 2;
+	grid-row: 1 / 3;
 	padding-left: 100px;
 }
 
@@ -59,12 +62,16 @@ h3{
 	place-self: center;
 	grid-column: 1;
 	grid-row: 1;
+	place-self: center;
 }
 
 .grid2p {
 	grid-column: 2;
 	grid-row: 1;
-	padding-bottom: 100px;	
+	padding-bottom: 100px;
+	padding-left: 30px;
+	place-self: center;
+	justify-self: left;
 }
 
 .grid3p {
@@ -103,6 +110,14 @@ h3{
 	grid-column: 2;
 	grid-row: 3;
 	padding-bottom: 100px;	
+	padding-left: 30px;
+	place-self: center;
+	justify-self: left;
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 5px;
 }
 
 a {
